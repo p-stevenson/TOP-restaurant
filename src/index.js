@@ -7,4 +7,10 @@ if (process.env.NODE_ENV !== 'production') {
 	console.log('PRODUCTION MODE');
 }
 
-createTabs();
+document.addEventListener('DOMContentLoaded', () => {
+	const handleTabClick = (event) => {
+		console.log(`${event.target.textContent}  clicked!`);
+	};
+	createTabs(undefined, undefined, handleTabClick);
+
+});
