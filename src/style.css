@@ -2,7 +2,7 @@ body {
 	background: rgb(66 66 66);
 }
 
-btn {
+button {
 	border: 1px solid black;
 	border-radius: 4px;
 	padding: 4px;
