@@ -1,5 +1,6 @@
 import './style.css';
 import {createTabs} from "./createTabs";
+import {displayImage} from "./home.js";
 
 if (process.env.NODE_ENV !== 'production') {
 	console.log('DEV MODE');
@@ -12,5 +13,5 @@ document.addEventListener('DOMContentLoaded', () => {
 		console.log(`${event.target.textContent}  clicked!`);
 	};
 	createTabs(undefined, undefined, handleTabClick);
-
+	displayImage();
 });
