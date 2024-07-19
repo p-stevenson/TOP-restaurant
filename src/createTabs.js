@@ -2,7 +2,7 @@ export function createTabs(tabLabels = ['Home', 'Menu', 'About'], parentElementI
 	const nav = document.getElementById(parentElementId);
 
 	if (!nav) {
-		console.error(`Error with id "${parentElementId} not found.`);
+		console.error(`Error with id ${parentElementId} not found.`);
 		return;
 	}
 	for (const tab of tabLabels) {

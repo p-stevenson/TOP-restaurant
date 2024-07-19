@@ -9,6 +9,14 @@ body {
 	align-items: center;
 }
 
+H1 {
+	display: flex;
+	color: hotpink;
+	justify-content: center;
+	font-family: "Roboto Mono";
+
+}
+
 button {
 	border: 1px solid black;
 	border-radius: 4px;
