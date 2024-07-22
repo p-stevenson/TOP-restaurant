@@ -14,7 +14,15 @@ H1 {
 	color: hotpink;
 	justify-content: center;
 	font-family: "Roboto Mono";
+}
 
+#taglineContainer {  
+	display: flex;
+	justify-content: center;
+}
+
+#tagline {
+	font-family: "Roboto Mono";
 }
 
 button {
