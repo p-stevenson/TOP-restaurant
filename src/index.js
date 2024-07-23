@@ -1,6 +1,7 @@
 import './style.css';
 import {createTabs} from "./createTabs";
-import {displayContent} from "./home.js";
+import {displayHome} from "./home";
+import {displayMenu} from "./menu";
 
 if (process.env.NODE_ENV !== 'production') {
 	console.log('DEV MODE');
@@ -10,8 +11,13 @@ if (process.env.NODE_ENV !== 'production') {
 
 document.addEventListener('DOMContentLoaded', () => {
 	const handleTabClick = (event) => {
-		console.log(`${event.target.textContent}  clicked!`);
+		if (event.target.textContent === 'Home') {
+			displayHome();
+		} else if (event.target.textContent === 'Menu') {
+			displayMenu();
+		}
 	};
 	createTabs(undefined, undefined, handleTabClick);
-	displayContent();
 });
+
+displayHome();

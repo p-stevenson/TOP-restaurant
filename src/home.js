@@ -1,6 +1,6 @@
 import frontEntrance from './images/tfrFront.jpg'
 
-const eleCreate = function (type, attributes = {}, parentElement) {
+export const eleCreate = function (type, attributes = {}, parentElement) {
 	const element = document.createElement(type);
 	for (const attribute in attributes) {
 		if (attribute === 'textContent') {
@@ -17,7 +17,7 @@ const eleCreate = function (type, attributes = {}, parentElement) {
 	return element;
 }
 
-export function displayContent() {
+export function displayHome() {
 	const mainContainer = document.getElementById('divcontent');
 
 	const headingContainer = eleCreate('div', {id: 'headingContainer'}, mainContainer)
