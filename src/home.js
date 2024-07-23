@@ -18,6 +18,7 @@ export const eleCreate = function (type, attributes = {}, parentElement) {
 }
 
 export function displayHome() {
+
 	const mainContainer = document.getElementById('divcontent');
 
 	const headingContainer = eleCreate('div', {id: 'headingContainer'}, mainContainer)

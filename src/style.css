@@ -9,7 +9,7 @@ H1 {
 	display: flex;
 	color: hotpink;
 	justify-content: center;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", serif;
 }
 
 #taglineContainer {  
@@ -19,7 +19,7 @@ H1 {
 
 #tagline {
 	color: hotpink;
-	font-family: "Roboto Mono";
+	font-family: "Roboto Mono", serif;
 }
 
 button {

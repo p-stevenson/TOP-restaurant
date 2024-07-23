@@ -1,4 +1,4 @@
-export function createTabs(tabLabels = ['Home', 'Menu', 'About'], parentElementId = 'navbar', tabClickHandler = null) {
+export function createTabs(tabLabels = ['Home', 'Menu', 'About'], parentElementId = 'navbar') {
 	const nav = document.getElementById(parentElementId);
 
 	if (!nav) {
@@ -8,9 +8,6 @@ export function createTabs(tabLabels = ['Home', 'Menu', 'About'], parentElementI
 	for (const tab of tabLabels) {
 		const newTab = document.createElement("button");
 		newTab.textContent = tab;
-		if (tabClickHandler) {
-			newTab.addEventListener('click', tabClickHandler);
-		}
 		nav.appendChild(newTab);
 	}
 }
