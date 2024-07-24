@@ -37,5 +37,6 @@ export function displayHome() {
 	eleCreate('p', {
 		id: 'tagline',
 		textContent: 'A fine dining experience for the most obnoxiously refined of diners.'
-	}, emphasize)
+	}, emphasize);
+	console.log('Home Loaded');
 }

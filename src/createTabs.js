@@ -8,6 +8,9 @@ export function createTabs(tabLabels = ['Home', 'Menu', 'About'], parentElementI
 	for (const tab of tabLabels) {
 		const newTab = document.createElement("button");
 		newTab.textContent = tab;
+		newTab.value = tab;
+		newTab.id = tab;
 		nav.appendChild(newTab);
 	}
+	console.log('got this far')
 }
