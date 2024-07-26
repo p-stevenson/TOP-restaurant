@@ -1,4 +1,4 @@
-import {eleCreate} from "./home";
+import {eleCreate} from "./elementCreate";
 
 export function displayMenu() {
 	const mainContainer = document.getElementById('divcontent');
