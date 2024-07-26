@@ -1,7 +1,7 @@
 import './style.css';
-import {createTabs} from "./createTabs";
-import {displayHome} from "./home";
-import {displayMenu} from "./menu";
+import {createTabs} from "./modules/createTabs";
+import {displayHome} from "./modules/home";
+import {displayMenu} from "./modules/menu";
 
 createTabs();
 

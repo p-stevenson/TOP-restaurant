@@ -12,6 +12,17 @@ H1 {
 	font-family: "Roboto Mono", serif;
 }
 
+h2 {
+	display: flex;
+	color: hotpink;
+	justify-content: center;
+	font-family: "Roboto Mono", serif;
+}
+
+.dish {
+	padding: 1rem 0 3rem 0;
+}
+
 #taglineContainer {  
 	display: flex;
 	justify-content: center;
