@@ -37,4 +37,3 @@ export function displayMenu() {
 	const menuItemContainer = elementCreate('div', {id: 'menuItemContainer'}, mainContainer)
 	appendImages();
 }
-
