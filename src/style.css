@@ -23,6 +23,20 @@ h2 {
 	padding: 1rem 0 3rem 0;
 }
 
+#aboutContainer {
+	padding: 3rem 0 0 0;	
+}
+
+.aboutContent {
+	display: flex;
+	color: hotpink;
+	justify-content: center;
+	text-align: justify;
+	font-family: "Roboto Mono Light", serif;
+	max-width: 500px;
+	padding: 2rem 0 0 0;
+}
+
 #taglineContainer {  
 	display: flex;
 	justify-content: center;

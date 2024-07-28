@@ -2,6 +2,8 @@ import './style.css';
 import {createTabs} from "./modules/createTabs";
 import {displayHome} from "./modules/home";
 import {displayMenu} from "./modules/menu";
+import {displayAbout} from "./modules/about";
+
 
 createTabs();
 
@@ -18,6 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			displayMenu()
 		} else if (event.target.value === 'Home') {
 			displayHome();
+		} else if (event.target.value === 'About') {
+			displayAbout();
 		}
 	})
 })

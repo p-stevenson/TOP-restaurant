@@ -12,5 +12,4 @@ export function createTabs(tabLabels = ['Home', 'Menu', 'About'], parentElementI
 		newTab.id = tab;
 		nav.appendChild(newTab);
 	}
-	console.log('got this far')
 }
